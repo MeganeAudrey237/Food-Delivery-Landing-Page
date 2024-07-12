@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none ;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+  
+      
+  }
+  header{
+    background: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5rem;
+    /* position: fixed; */
+    /* align-content: center; */
+    /* align-items: center; */
+  }
+  header img{
+    width: 20%;
+    height: 20%;
+  }
+  header p{
+    font-size: 0.7rem;
+    align-content: center;
+  }
+  header .pone{
+    font-weight: bold;
+    font-size: 0.8rem;
+  }
+  header .ptwo{
+    font-weight: bold;
+    
+  }
+  header i{
+    color: rgba(255, 179, 14, 1);    
+  }
+  .heard{
+    display: flex;
+    gap: 2rem;
+    /* align-self: center; */
+    align-items: center;
+  }
+  header .heard .hone{
+    font-weight: bold;
+    font-size: 0.8rem;
+    color: black;
+  }
+  header .heard .htwo a{
+    color:rgba(255, 179, 14, 1) ;
+  }
+  header .heard .htwo{
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 179, 14, 1) ;
+    padding: 0.4rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+    border-radius: 5px ;
+    color: rgba(255, 179, 14, 1);
+  }
+ 
+  .index{
+    background-color: rgba(255, 179, 14, 1);
+    /* min-height: 40vh; */
+    display: flex;
+    /* gap: 19rem; */
+    justify-content: space-around;
+    padding: 3rem;
+  }
+  .index img{
+    width: 50%;
+    /* position: relative; */
+    /* padding-left: 20rem; */
+    /* float: left; */
+    /* object-position: bottom left; */
+    
+    /* object-fit: none; */
+
+    /* margin-top: rem; */
+    /* top: 50%;
+    left: 50%; */
+    /* left: rem; */
+    /* transform: translate(30px 30px); */
+    /* height: 50%; */
+  }
+  /* .index img{
+    transform: translate(300px 300px);
+  } */
+  .index h1{
+    color: white;
+    font-size: 2.5rem;
+
+  }
+  .index p{
+    font-size: 0.6rem;
+    /* padding-bottom: 0.5rem; */
+  }
+  .index .box{
+    background-color: white;
+    width: 125%;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-top: 1rem;
+    /* display: flex; */
+  }
+  .index .box1{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    /* justify-content: space-between; */
+  }
+  .index #one{
+    color: rgba(241, 114, 40, 1);
+    background: rgba(241, 114, 40, 0.1);
+    padding: 0.3rem;
+
+  }
+  .index #address{
+    color: rgba(158, 158, 158, 1);
+    background: rgba(245, 245, 245, 1);
+    border-radius: 5px;
+    width: 75%;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    border: 1px solid rgba(158, 158, 158, 1);
+
+  }
+  .index #Findfood{
+    background: linear-gradient(95.71deg, #FF7A7A -39.64%, #F75900 135.31%);
+    border-radius: 5px;
+    color: white;
+    width: 23%;
+    padding: 0.5rem;
+    font-size: 0.6rem;
+    border: 1px solid ;
+  }
+
+  .blogs {
+    display: flex;
+    padding: 3rem;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+  }
+  .blogs img{
+    width: 90%;
+    
+  }
